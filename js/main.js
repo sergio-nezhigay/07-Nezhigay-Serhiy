@@ -11,7 +11,7 @@ for (let i = 2; i <= 10; i++) {
     htmlText += card({ suit: suit[j], symbol: i });
   }
 }
-console.log("🚀 ~ file: main.js:12 ~ htmlText:", htmlText);
+
 // "jack", "queen", "king
 for (let i = 0; i <= 2; i++) {
   for (let j = 0; j <= 3; j++) {
